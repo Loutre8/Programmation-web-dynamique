@@ -1,0 +1,96 @@
+/* styles.css */
+
+body {
+    background-color: #ECF8F6;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #FEEAA1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #226D68;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #18534F;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #226D68;
+}
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+
+.button {
+    display: inline-block;
+    background-color: #D6955B;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #FEEAA1;
+}
+
+.button-primary {
+    background-color: #D6955B;
+}
+
+.button-primary:hover {
+    background-color: #FEEAA1;
+}
+
+.back-to-home {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+

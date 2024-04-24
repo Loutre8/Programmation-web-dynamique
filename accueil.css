@@ -1,0 +1,147 @@
+body{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+#barre{
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+}
+
+#logo{
+	height: 200px;
+	width: 15%;
+	background-color: pink;
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo img{
+	width: 100%;
+	height: 100%;
+}
+
+#banniere{
+	height:200px;
+	width:85%;
+	background-color: purple;
+	display: flex;
+	justify-content: space-between;
+}
+
+#banniere img{
+	width: 100%;
+	height: 100%;
+}
+
+#menu{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding-right: 20px;
+	background-color: #D6955B;
+	font-size: 20px;	
+}
+
+#menu ul{
+	list-style: none;
+	display: flex;
+}
+
+#menu ul li{
+	margin-right: 20px;
+	text-transform: uppercase;
+	style-decoration: none;
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+	transition: color 0.5s ease-in-out, font-weight 0.5s ease-in-out;
+}
+
+ul li a:hover{
+	text-decoration: none;
+	font-weight: bold;
+	color: #18534F;
+}
+#navigation{
+	width: 100%;
+	height: auto;
+	background-color:#FEEAA1;
+	box-sizing: content-box;
+}
+
+#navigation h1 {
+	text-align: center;
+	color:black;
+	padding: 10px;
+}
+
+#navigation p{
+	text-align: justify;
+	color:black;
+	margin: 30px;
+}
+
+#colonnes{
+	display: flex;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	box-sizing: content-box;
+	background-color: #ECF8F6;
+}
+
+#colonne1{
+	width: 33.33%;
+	background-color: #226D68;
+	padding: 10px;
+	box-sizing: content-box;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+#auteur{
+	display: flex;
+	justify-content: space-around;
+}
+
+#colonne2{
+	width: 33.33%;
+	background-color: #18534F;
+	padding: 10px;
+	box-sizing: content-box;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+#colonne3{
+	width: 33.33%;
+	background-color: #226D68;
+	padding: 10px;
+	box-sizing: content-box;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+#footer{
+	display: flex;
+	background-color: #D6955B;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 200px;
+}
+
+#footer p{
+	display: flex;
+
+	color:white;
+	font-size: 20px;
+	padding: 10px;
+}
